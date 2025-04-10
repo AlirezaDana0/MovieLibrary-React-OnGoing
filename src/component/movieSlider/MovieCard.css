@@ -1,0 +1,10 @@
+.box:hover {
+    border-left: 4px solid #e50813;
+    transform: scale3d(1.1,1.1,1) translate3d(6%,0,0) perspective(31.25em);
+}
+.swiper-button-next {
+    color: #e50813;
+}
+.swiper-button-prev {
+    color: #e50813;
+}

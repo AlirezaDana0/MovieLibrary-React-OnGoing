@@ -1,0 +1,67 @@
+header {
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.9), rgba(0,0,0,0.6), rgba(0,0,0,0.5),rgba(0,0,0,0));
+    color: #ffffff;
+}
+header a {
+    margin-left: 30px;
+}
+header i {
+    quotes: 40px;
+    height: 40px; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 10px;
+}
+.toggle {
+    display: none;
+}
+.boxx {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.boxx:hover input {
+    width: 400px;
+}
+.boxx input {
+    transition: 0.8s;
+}
+.boxx:hover .srchI {
+background-color: #fff;
+color: #e50813;
+}
+
+@media only screen and (max-width:768px) {
+    header nav .flexSB {
+        display: none;
+    }
+    .acc {
+        display: none;
+    }
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 20px;
+        margin: auto;
+        cursor: pointer;
+        background: none;
+      }
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #e50813;
+        width: 50%;
+        height: 100vh;
+        z-index: 999;
+        line-height: 10vh;
+    }
+    header ul li {
+        margin-top: 30px;
+        padding: 0 50px;
+    }
+}
